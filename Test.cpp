@@ -1322,7 +1322,7 @@ void assert_equal(int a, int b)
 		successCount++;
 	else
 	{
-		cout << "\t[ASSERTION] Expected: " << a << ", but Actual: " << b << endl;		
+		cout << "\t\t[ASSERTION] Expected: " << a << ", but Actual: " << b << endl;		
 	}
 	//return result;
 }
@@ -1334,7 +1334,7 @@ void assert_equal(char a, char b)
 		successCount++;
 	else
 	{
-		cout << "Expected: " << a << ", but Actual: " << b << endl;		
+		cout << "\t\tExpected: " << a << ", but Actual: " << b << endl;		
 	}
 	//return result;
 }
